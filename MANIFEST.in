@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include roir_ts *.css
+recursive-include roir_ts *.csv
+recursive-include roir_ts *.html
+recursive-include roir_ts *.ico
+recursive-include roir_ts *.js
+recursive-include roir_ts *.json
+recursive-include roir_ts *.md
+recursive-include roir_ts *.png
+recursive-include roir_ts *.py
+recursive-include roir_ts *.svg
+recursive-include roir_ts *.txt
+recursive-exclude roir_ts *.pyc
