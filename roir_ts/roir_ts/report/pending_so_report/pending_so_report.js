@@ -1,8 +1,7 @@
-// Copyright (c) 2016, Frappe Technologies Pvt. Ltd. and contributors
+// Copyright (c) 2023, thirvusoft and contributors
 // For license information, please see license.txt
 /* eslint-disable */
-
-frappe.query_reports["Ts Sales order Analysis"] = {
+frappe.query_reports["Pending So Report"] = {
 	"filters": [
 		{
 			"fieldname": "company",
