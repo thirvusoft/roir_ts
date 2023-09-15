@@ -154,10 +154,10 @@ app_license = "MIT"
 
 # Overriding Methods
 # ------------------------------
-#
-# override_whitelisted_methods = {
-#	"frappe.desk.doctype.event.event.get_events": "roir_ts.event.get_events"
-# }
+
+override_whitelisted_methods = {
+	"frappe.desk.query_report.get_data_for_custom_field": "roir_ts.custom.py.query_report.get_data_for_custom_field"
+}
 #
 # each overriding function accepts a `data` argument;
 # generated from the base implementation of the doctype dashboard,
